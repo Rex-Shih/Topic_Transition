@@ -6,13 +6,13 @@ Note: this is the final project from Applied deep learning class of National Tai
 2. download files and run the code: ```bash run.sh```
 
 ### Task description
-<img src="https://hackmd.io/_uploads/HyTPiPX2h.png" alt="Salesman problem" width="500"/>
+<img src="https://github.com/Rex-Shih/Topic_Transition/blob/main/assets/salesman%20problem.png" alt="Salesman problem" width="500"/>
 
 
 * Goal: we hope to train a model that can transit from the open-domain dialogue to a specific domain dialogue, shich can be implement in real-world advertisement chat bot.
 
 
-<img src="https://hackmd.io/_uploads/rkJJgdX23.png"
+<img src="https://github.com/Rex-Shih/Topic_Transition/blob/main/assets/topic%20sheet.png"
  alt="topic sheet" width="700"/>
 
 * While given an open domain dialogue, the chat-model should laed the topic so that the user's response contains one of the relevant words list above.
