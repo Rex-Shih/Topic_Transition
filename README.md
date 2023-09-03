@@ -22,26 +22,14 @@ We use Facebook Blenderbot to simulate the user response. The evaluation is base
 
 ### Our Team's Approach
 We experimented with fine-tuning two models:
-1. MultiGen: Dynamic multi-hop reasoning on multi-relational paths extraced from external commonsense knowledge graph. Most of the conversation between bot and simulator are fluent. The hit rate is **0.738**.
-2. BlenderBot: Handling a diverse range of conversational topics and generating engaging and human-like responses. The bot get great Naturalness and Aggressiveness in the dialog generation. The hit rate is **0.896**. We finally choose this approach as final model. 
+1. MultiGen: Dynamic multi-hop reasoning based on multi-relational paths extracted from an external commonsense knowledge graph. Most conversationa between the bot and the simulator are fluent. The hit rate achieved was **0.738**.
+2. BlenderBot: capable of handling a diverse range of conversational topics and generating engaging and human-like responses. The bot performed exceptionally well in terms of Naturalness and Aggressiveness during dialog generation. The hit rate was **0.896**. We eventually selected this approach as our final model. 
 
-Human evalutation for our final model(40 teams in total):
+Human Evalutation Results for Our Final Model (Out of 40 teams):
 * Naturalness: ranked 9th
 * Relevance: ranked 15th
 * Aggressiveness:ranked 8th
 * Overall:ranked 12th
 
 
-
-
 [Full document](https://github.com/Rex-Shih/Topic_Transition/blob/main/Report.pdf)
-
-
-MultiGen: Dynamic multi-hop reasoning based on multi-relational paths extracted from an external commonsense knowledge graph. Most conversations between the bot and the simulator are fluent. The hit rate achieved was 0.738.
-BlenderBot: Capable of handling a diverse range of conversational topics and generating engaging and human-like responses. The bot performed exceptionally well in terms of Naturalness and Aggressiveness during dialog generation. The hit rate was 0.896. We eventually selected this approach as our final model.
-Human Evaluation Results for Our Final Model (Out of 40 Teams)
-Naturalness: Ranked 9th
-Relevance: Ranked 15th
-Aggressiveness: Ranked 8th
-Overall: Ranked 12th
-Full Document
